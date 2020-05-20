@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,55 +9,150 @@
     <link rel="stylesheet" href="./fontawesome-free/css/all.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <!-- Header -->
     <header>
         <!-- Navbar -->
-        <nav>
-
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand col-2" href="#"><img src="./Images/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars nav-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse col-lg-8" id="navbarNav">
+                <ul class="navbar-nav ul-nav justify-content-lg-end">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Works</a>
+                    </li>
+                    <li class="nav-item ">
+                        <div class="d-flex justify-content-between">
+                            <a class="nav-link Blog-sublist" href="#">Blog</a>
+                            <span class=" plus-icon plus-icon1" type="button">
+                                <i class="fas fa-plus plus1"></i>
+                                <i class="fas fa-minus minus1"></i>
+                            </span>
+                        </div>
+                        <ul class="navbar-nav sublist sublist1">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog Details</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <div class="d-flex justify-content-between">
+                            <a class="nav-link pages-sublist" href="#">Pages</a>
+                            <span class=" plus-icon plus-icon2" type="button">
+                                <i class="fas fa-plus plus2"></i>
+                                <i class="fas fa-minus minus2"></i>
+                            </span>
+                        </div>
+                        <ul class="navbar-nav sublist sublist2">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Element</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="btn contact-btn"> Contact Now</a>
         </nav>
+        <!-- end of navbar -->
+        <!-- header main-->
+        <main class="clearfix">
+            <section class="header-image">
+                <img src="./Images/hero_img.jpg" id="hero" alt="hero">
+                <img src="./Images/hero1.png" id="hero1" alt="hero1">
+            </section>
+            <section class="data">
+                <h1 class="header-title"> Business Synergy via <br>Robust Strategies </h1>
+                <p class="header-text">
+                    Aasrem dfgum dolor sivst amet, consectetur adipisicing elitvde, sed dvo eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad micnim veniam, quis nostrud exercita.
+                </p>
+                <a href="#" id="header-link">
+                    <span class="link-text">View project</span>
+                    <i class="fas fa-long-arrow-alt-right arrow1"></i>
+                </a>
+                <div class="arrow">
+                    <i class="fas fa-chevron-left arrow2" type="button"></i><i class="fas fa-chevron-right arrow3" type="button"></i>
+                </div>
+            </section>
+        </main>
+        <!-- end of header main-->
     </header>
+    <!-- end of header -->
 
     <!-- Basmala's Sections -->
     <section id="Services">
-        
+
     </section>
 
 
     <!-- Mariem's Section -->
     <section id="tailor">
-        
+
     </section>
 
 
     <!-- RiZK's Sections -->
-    <section id="Works ">
-        
+    <section id="Works" class="row container">
+    <h2 class="content col-md-7">All startups need to make their business work </h2>
+    <!-- <a id="sendMessageButton" class="btn btn-primary">View more</a> -->
+   <div id="butn">
+    <button id="sendMessageButton" class="btn">View more</button>
+   </div>
     </section>
           <!-- Project_gallery -->
-    <section id="gallery">
-        
+    <section id="gallery" class="row container">
+        <div class="left col-md-6">
+          <img src="Images/project_list1.png" alt="image">
+        </div>
+        <div class="right row col-md-6">
+          <div class="R-top col-md-4">
+          <img src="Images/project_list2.png" alt="1" id="img1" >
+          <img src="Images/project_list4.png" alt="2" id="img2">
+          </div>
+          <div class="R-bottom col-md-8">
+          <img src="Images/project_list3.png" alt="3" id="img3">
+          <img src="Images/project_list5.png" alt="4" id="img4">
+          </div>
+        </div>
     </section>
-    
 
-     <!-- Aya's Sections -->
-     <section id="quote">
-        
+    <!-- Aya's Sections -->
+    <section id="quote">
+
     </section>
-        <!-- startups' section -->
+    <!-- startups' section -->
     <section id="startups">
-        
+
     </section>
-        <!-- End of Aya'sections -->
+    <!-- End of Aya'sections -->
 
     <!-- Start the footer -->
-   <footer>
+    <footer>
 
     </footer>
     <!--End of the footer-->
-    
+
     <script src="./java/jquery-3.4.1.min.js"></script>
     <script src="./bootstrap/js/bootstrap.bundle.js"></script>
     <script src="./java/script.js"></script>
 </body>
+
 </html>
