@@ -421,3 +421,163 @@ header main
     }
     /* end of navbar */
 }
+
+
+
+
+
+
+
+
+
+
+
+/* start footer */
+footer{
+    
+}
+footer .top_of_footer{
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 50px 60px;
+    height: 250px;
+    background-color: #04dbed;
+    color: #ffffff;
+    display: flex;
+}
+ footer .top_of_footer .container {
+     font-weight: bolder;
+    width: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+ footer .but{
+    height: 70px;
+    width: 250px;
+    margin-left: 60px;
+    margin-right: 40px;
+    color: #fff;
+    background-color: #0d0d0df2;
+    border: none;
+}
+footer .but:hover{
+    background-color: aqua;
+}
+footer .footerBody{
+    padding-top: 200px;
+    background-color: #010e22;
+    padding-bottom: 30px;
+    color: #5b7a89;
+    font-size: 15px;
+}
+footer .all{
+    padding-right: 60px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-around;
+} 
+footer .logoStartup{
+    padding: 5px;
+    width: 10%;
+}
+footer .linksSection {
+    display: flex;
+    justify-content: space-between;
+}
+footer ul{
+    float: left;
+    padding-right: 30px;
+    width: 300px;
+}
+footer ul li{
+    list-style: none;
+    padding: 10px 5px;
+    color: #5b7a89;
+}
+footer ul li a{
+    color: #5b7a89;
+    text-decoration: none
+}
+footer ul li a:hover{
+    color: #04dbed;
+    text-decoration: none;
+    padding-left: 10px;
+}
+footer .l{
+     background-color:   #5b7a89;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+footer .h5{
+    padding-left: 30px;
+}
+footer .s{
+    
+    color: #04dbed;
+    
+}
+footer .s2{
+    color: #fff;
+}
+footer .h:hover{
+     background-color:  : #04dbed;
+    text-decoration: none;
+    padding-left: -20px;
+    
+}
+
+@media (max-width: 575.98px) { 
+    .top_of_footer{
+        display: block;
+        font-size: 15px;
+        padding: 10px;
+    }
+    .top_of_footer .container{
+        width: 100%;
+    }
+    .footerBody{
+        padding-top: 50px;
+        height: 1200px;
+        
+        }
+    .logoStartup {
+        padding-left: 50px;
+        padding-bottom: 40px;
+    }
+    
+    .all{
+        padding-left: 50px;
+        display: block;
+        height: 800px;
+    }
+    .linksSection{
+        display: block;
+    }
+     
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .top_of_footer{
+        display: block;
+        font-size: 15px;
+        padding: 10px;
+    }
+    .top_of_footer .container{
+        width: 100%;
+    }
+    
+}
+
+
+/* end  footer */
+
+
+
+
+
+
+
+
+
