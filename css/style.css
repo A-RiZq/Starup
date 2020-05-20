@@ -1,3 +1,13 @@
+/*start global*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    overflow-x: hidden;
+}
+
+/*end global*/
+
 /* the header layout */
 header
 {
@@ -217,6 +227,108 @@ header main
 }
 /*End of "Services" Section*/
 
+/**********************************************************************/
+/*start Mariam's section [tailor]*/
+#tailor{
+    height:850px;
+    overflow: hidden;
+}
+
+#tailor .image-intro{
+    background-image: url(../Images/hero2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-clip: border-box;
+    background-size: cover;
+    height:850px;
+    margin:20px 0;
+}
+#tailor .decsription{
+    padding:60px;
+}
+#tailor .text{
+    margin:60px 0;
+}
+#tailor .text p{
+    color:gray;
+    text-transform: capitalize;
+}
+#tailor .text .intro-text{
+    margin:20px 0 30px;
+}
+#tailor .text h1{
+    margin:20px 0;
+    overflow: hidden;
+    text-transform: capitalize;
+    color:rgb(22, 2, 94);
+    font-size: 35px;
+    font-weight: 700;
+}
+#tailor .cont{
+    margin:30px 0;
+    text-transform: capitalize;
+}
+#tailor .cont .float-right{
+    color:rgb(0, 195, 255);
+}
+#tailor .cont .progress{
+    height:4px;
+}
+#tailor .cont .progress .progress-bar{
+    background-color:rgb(0, 195, 255);
+}
+
+@media(max-width: 1200px){
+    #tailor{
+        height:700px;
+    }
+    
+    #tailor .image-intro{
+        height:700px;
+    }
+    
+}
+@media(max-width: 992px){
+    #tailor{
+        height:1200px;
+    }
+    #tailor .decsription{
+        padding:60px 320px 60px 60px;
+    }
+    #tailor .image-intro{
+        height:500px;
+    }
+}
+@media(max-width:768px){
+    #tailor{
+        height:1400px;
+    }
+    #tailor .decsription{
+        padding:60px 300px 60px 40px;
+    }
+    #tailor .text h1{
+        margin:20px 0;
+        font-size: 33px;
+        font-weight: 600;
+    }
+}    
+@media(max-width:576px){
+    #tailor{
+        height:1200px;
+    }
+    #tailor .decsription{
+        padding:30px;
+    }
+
+    #tailor .text h1{
+        margin:20px 0;
+        font-size: 28px;
+        font-weight: 400;
+    }
+}    
+
+/*end Mariam's section [tailor]*/
+/**********************************************************************/
 
 /* Works' section */
 #Works h2{
